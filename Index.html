@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAIJU - Bebida Energética</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="Inicio">
+        <div class="logo-titulo">
+            <img src="Img/logo vertical.png" alt="Kaiju Logo" class="logo">
+            <h1>ENERGIA DE TITANES</h1>
+        </div>
+    </header>
+    
+    <nav class="navbar" >
+        <div class="logo" >
+            <img src="Img/logo vertical.png" alt="Kaiju Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>  
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="carrusel">
+                <img src="Img/fondo1.jpg" alt="Imagen 1 de KAIJU">
+                <img src="Img/fondo2.jpg" alt="Imagen 2 de KAIJU">
+                <img src="Img/fondo3.jpg" alt="Imagen 3 de KAIJU">
+            </div>
+            <div class="texto-hero">
+                <h2>¡Desata el poder de KAIJU!</h2>
+                <p>Conquista tu día con nuestra bebida energética, diseñada para los verdaderos titanes.</p>
+            </div>
+        </section>
+
+
+
+        <!-- Productos -->
+        <section class="productos" id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-contenedor">
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <img src="Img/lata 1.png" alt="Producto 1">
+                    <h3>DESTROYAH</h3>
+                    <p>Intenso sabor Cereza</p>
+                    <button class="btn-leer-mas" data-producto="1">Leer más</button>
+                </div>
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <img src="Img/lata 2.png" alt="Producto 2">
+                    <h3>KING GHEDORA</h3>
+                    <p>Tropical sabor Mango-Piña</p>
+                    <button class="btn-leer-mas" data-producto="2">Leer más</button>
+                </div>
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <img src="Img/lata 3.png" alt="Producto 3">
+                    <h3>GODZILLA</h3>
+                    <p>Sabor frutos rojos</p>
+                    <button class="btn-leer-mas" data-producto="3">Leer más</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Panel de información detallada -->
+        <div class="panel-detalle" id="panel-detalle">
+            <div class="contenido-detalle">
+                <button class="cerrar-panel">&times;</button>
+                <img src="" alt="Imagen del producto" id="detalle-imagen">
+                <div class="texto-detalle">
+                    <h3 id="detalle-titulo"></h3>
+                    <p id="detalle-descripcion"></p>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="beneficios" id="beneficios">
+            <h2>Beneficios</h2>
+
+            <div class="beneficio">
+                <img src="Img/taurina.png" alt="Energía duradera">
+                <div class="texto">
+                    <h3>Taurina</h3>
+                    <p>Estimulante y mejora la alerta mental.<br>
+                        Eleva el estado de ánimo y reduce la fatiga.<br>
+                        Aumenta la resistencia física y el rendimiento durante el ejercicio.</p>
+                </div>
+            </div>
+
+            <div class="beneficio">
+                <img src="Img/cafeina.png" alt="Sabor inigualable">
+                <div class="texto">
+                    <h3>Cafeina</h3>
+                    <p>Funciona como antioxidante, protegiendo las células.<br>
+                        Regula la presión arterial y mejora la función cardíaca.<br>
+                        Incrementa la resistencia muscular y reduce la fatiga en el ejercicio.</p>
+                </div>
+            </div>
+
+            <div class="beneficio">
+                <img src="Img/gingseng.png" alt="Fácil de llevar">
+                <div class="texto">
+                    <h3>Gingseng</h3>
+                    <p>Aumenta la energía y reduce la fatiga.<br>
+                        Mejora la función cognitiva, la memoria y el enfoque.<br>
+                        Ayuda al cuerpo a adaptarse y resistir mejor el estrés físico y mental como adaptógeno.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Sobre Nosotros -->
+        <section class="sobre-nosotros" id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <div class="paneles-superiores">
+                <div class="panel">
+                    <h3>Misión</h3>
+                    <p>En Kaiju, nuestra misión es impulsar el rendimiento físico y brindar un aporte inmediato de energía a los 
+                        jóvenes y adultos cuando las reservas del cuerpo se agotan. </p>
+                </div>
+                <div class="panel">
+                    <h3>Visión</h3>
+                    <p>En Kaiju, visualizamos un futuro donde nuestras bebidas energéticas sean reconocidas como la elección preferida por personas comprometidas con su bienestar y rendimiento. 
+                        Nos esforzamos por ser una marca reconocida por su calidad, innovación y compromiso con el cliente. </p>
+                </div>
+            </div>
+            <div class="panel-inferior">
+                <h3>Objetivos</h3>
+                <p>Desarrollo de productos innovadores<br>
+                    Expansión del mercado<br>
+                    Compromiso con la calidad<br>
+                    </p>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Estamos aquí para ayudarte. Completa el formulario o usa nuestros canales de contacto directo.</p>
+            <div class="contenido-contacto">
+                <div class="formulario">
+                    <form action="#" method="POST">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+                        </div>
+                        <button type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+                <div class="info-contacto">
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>Teléfono: +52 123 456 7890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: contacto@kaiju.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Ubicación: Ciudad de México, México</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KAIJU. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+
+</html>
