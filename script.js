@@ -28,19 +28,19 @@ const productos = [
         id: 1,
         titulo: 'DESTROYAH',
         descripcion: 'Bebida carbonatada sabor cereza que contiene Cafeina y Taurina para mejorar el rendimiento deportivo',
-        imagen: 'img/lata 1.png',
+        imagen: 'Img/lata 1.png',
     },
     {
         id: 2,
         titulo: 'KING GHIDORA',
         descripcion: 'Bebida carbonatada sabor Mango-Piña dirigido a dar extra energia para todos aquellos que necesiten dar un poco mas en el dia.',
-        imagen: 'img/lata 2.png',
+        imagen: 'Img/lata 2.png',
     },
     {
         id: 3,
         titulo: 'GODZILLA',
         descripcion: 'Bebida carbonatada con sabor de una explosion de frutos rojos con cafeina y taurina para restaurar la energia.',
-        imagen: 'img/lata 3.png',
+        imagen: 'Img/lata 3.png',
     },
 ];
 
