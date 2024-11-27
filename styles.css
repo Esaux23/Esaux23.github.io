@@ -1,7 +1,4 @@
-/* styles.css */
 
-
-/* Barra de navegación */
 .navbar {
     position: fixed;
     top: 0;
@@ -12,16 +9,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 5px;
-    z-index: 1000; /* Para que siempre esté encima de otros elementos */
-    transition: top 0.3s ease-in-out;  /* Para que siempre esté encima de otros elementos */
+    z-index: 1000; 
+    transition: top 0.3s ease-in-out; 
 }
 
-/* Logo */
+
 .navbar .logo img {
-    height: 50px; /* Ajusta el tamaño del logo */
+    height: 50px; 
 }
 
-/* Lista de enlaces */
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -29,7 +26,7 @@
     padding: 0;
 }
 
-/* Enlaces de la barra */
+
 .nav-links li {
     margin: 0 15px;
 }
@@ -41,9 +38,9 @@
     transition: color 0.3s ease;
 }
 
-/* Efecto de hover en los enlaces */
+
 .nav-links li a:hover {
-    color: #ff7f50; /* Cambia el color al pasar el mouse */
+    color: #ff7f50;
 }
 
 .inicio .logo-titulo {
@@ -57,17 +54,16 @@
 }
 
 .inicio {
-    background-image: url('Img/fondo godzilla.png'); /* Ajusta el fondo de la sección inicial */
+    background-image: url('Img/fondo godzilla.png'); 
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 120px 20px; /* Espaciado superior para que no quede tapado por la barra */
-    z-index: 500; /* Aseguramos que esta parte esté por encima del contenido normal */
+    padding: 120px 20px; 
+    z-index: 500; 
 }
 
-/* Espaciado en la parte superior para no tapar contenido */
 body {
-    margin-top: 120px;  /* Ajusta esto dependiendo del tamaño de tu barra de navegación */
+    margin-top: 120px;  
 }
 
 body {
@@ -92,7 +88,7 @@ header .logo h1 {
 
 .hero {
     position: relative;
-    height: 400px; /* Ajusta según lo que necesites */
+    height: 400px; 
     overflow: hidden;
     text-align: center;
     color: white;
@@ -115,11 +111,11 @@ header .logo h1 {
 }
 
 .hero .texto-hero {
-    position: relative; /* El texto se posiciona encima de la capa oscura */
-    z-index: 2; /* Encima del pseudo-elemento ::before */
+    position: relative; 
+    z-index: 2; 
     padding: 20px;
-    max-width: 80%; /* Opcional: limita el ancho del texto */
-    margin: auto auto; /* Centra el texto */
+    max-width: 80%; 
+    margin: auto auto; 
 }
 
 .hero::before {
@@ -129,8 +125,8 @@ header .logo h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Capa negra semitransparente */
-    z-index: 1; /* Coloca la capa detrás del texto */
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
 }
 
 .productos {
@@ -163,7 +159,7 @@ header .logo h1 {
 }
 
 .producto:hover {
-    transform: scale(1.05); /* Efecto de agrandar */
+    transform: scale(1.05); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -175,7 +171,7 @@ header .logo h1 {
 }
 
 .producto:hover img {
-    transform: scale(1.1); /* Agranda la imagen */
+    transform: scale(1.1); 
 }
 
 .producto img {
@@ -232,13 +228,13 @@ header .logo h1 {
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
-    width: 90%; /* Asegura que sea responsive */
-    text-align: left; /* Alinea el texto a la izquierda */
+    width: 90%; 
+    text-align: left; 
     position: relative;
 }
 
 .panel-detalle .contenido-detalle .texto-detalle {
-    flex: 1; /* El texto ocupa el espacio restante */
+    flex: 1; 
 }
 
 .panel-detalle .contenido-detalle .texto-detalle h3 {
@@ -254,7 +250,7 @@ header .logo h1 {
 }
 
 .panel-detalle .contenido-detalle img {
-    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+    max-width: 300px; 
     border-radius: 10px;
     flex-shrink: 0;
 }
@@ -307,8 +303,8 @@ header .logo h1 {
     width: 150px;
     height: auto;
     border-radius: 10px;
-    flex-shrink: 0; /* Evita que la imagen se reduzca */
-    object-fit: cover; /* Ajusta la proporción de las imágenes */
+    flex-shrink: 0; 
+    object-fit: cover;
 }
 
 .beneficio .texto {
@@ -328,8 +324,6 @@ header .logo h1 {
     color: #fafafa;
 }
 
-
-/*Sobre Nosotros*/
 .sobre-nosotros {
     padding: 60px 20px;
     background: linear-gradient(#00690e, #410000, #0f2027);
@@ -411,7 +405,7 @@ header .logo h1 {
     color: #ddd;
 }
 
-/* Contenedor general */
+
 .contenido-contacto {
     display: flex;
     flex-wrap: wrap;
@@ -419,7 +413,7 @@ header .logo h1 {
     justify-content: center;
 }
 
-/* Formulario */
+
 .formulario {
     flex: 1;
     min-width: 300px;
